@@ -50,7 +50,7 @@ class Txt(object):
 ├💾 𝖣𝖺𝗍𝖺𝖡𝖺𝗌𝖾: <a href=https://cloud.mongodb.com>𝖬𝗈𝗇𝗀𝗈𝖣𝖡</a>
 ├📊 𝖡𝗎𝗂𝗅𝖽 𝖵𝖾𝗋𝗌𝗂𝗈𝗇: `OBI V1.7.0`
 ├🔗 𝖦𝗂𝗍𝖧𝗎𝖻: <a href=https://github.com/SilentDemonSD>𝖲𝗂𝗅𝖾𝗇𝗍𝖣𝖾𝗆𝗈𝗇𝖲𝖣</a>
-├📧 𝖢𝗈𝗇𝗍𝖺𝖼𝗍: <a href=https://telegram.me/MysterySD>𝖲𝗂𝗅𝖾𝗇𝗍𝖣𝖾𝗆𝗈𝗇</a>
+├📧 𝖢𝗈𝗇𝗍𝖺𝖼𝗍: <a href=https://telegram.me/MysterySD>꧁❏รเlєภt ๔є๓๏ภ❏꧂</a>
 ╰───────────────⍟ 
 """
 
@@ -80,10 +80,9 @@ Example: /set_caption 📕 File Name: {filename}
 • Send any file and type the new file name and select the format [document, video, audio].    """
 
     PROGRESS_BAR = """<b>\n
-╭━━━━『𝖯𝗋𝗈𝗀𝗋𝖾𝗌𝗌 𝖡𝖺𝗋』━➣
+╭━━『𝖯𝗋𝗈𝗀𝗋𝖾𝗌𝗌 𝖡𝖺𝗋』━━➣
 ┣⪼ 🗃️ 𝖲𝗂𝗓𝖾: {1} | {2}
 ┣⪼ ⏳️ 𝖣𝗈𝗇𝖾 : {0}%
 ┣⪼ 🚀 𝖲𝗉𝖾𝖾𝖽: {3}/s
 ┣⪼ ⏰️ 𝖤𝖳𝖠: {4}
-┣⪼ <i>𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖻𝗒 <a href=http://t.me/Rokubotz>𝖱𝗈𝗄𝗎𝖻𝗈𝗍𝗓</a></i>
 ╰━━━━━━━━━━━━━━━➣ </b>"""
