@@ -6,7 +6,7 @@ class Config(object):
     # pyro client config
     API_ID    = os.environ.get("API_ID", "22418774")
     API_HASH  = os.environ.get("API_HASH", "d8c8dab274f9a811814a6a96d044028e")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6853799265:AAHAia3VERsC01OlMEcgpNrIgWaC_8mnw1o") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6792396739:AAGI0djCkkplmkFszhyixLNLd6uNde-gmXU") 
 
     # database config
     DB_NAME = os.environ.get("DB_NAME","Roku")     
@@ -33,7 +33,7 @@ class Txt(object):
     """
         
     START_TXT = """𝖧𝖾𝗅𝗅𝗈 👋 {}
-𝗂 𝖺𝗆 <a href=http://t.me/FuZionX_SD_Bot>𝖥𝗎𝖹𝗂𝗈𝗇𝖷 𝖲𝖣</a>, 𝖠𝗇 𝖠𝗎𝗍𝗈 𝖱𝖾𝗇𝖺𝗆𝖾 𝖡𝗈𝗍
+𝗂 𝖺𝗆 <a href=http://t.me/FZXAutoRenameBot>𝖥𝗎𝖹𝗂𝗈𝗇𝖷 𝖲𝖣</a>, 𝖠𝗇 𝖠𝗎𝗍𝗈 𝖱𝖾𝗇𝖺𝗆𝖾 𝖡𝗈𝗍
 𝖳𝗁𝖺𝗍 𝖱𝖾𝗇𝖺𝗆𝖾𝗌 𝖠𝗇𝗂𝗆𝖾 𝖥𝗂𝗅𝖾𝗌 𝖳𝗈 𝖳𝗁𝖾 𝖥𝗈𝗋𝗆𝖺𝗍 𝖳𝗈 𝖲𝖾𝗍.
 
 𝖳𝗈 𝖲𝖾𝖾 𝖬𝗒 𝖥𝗎𝗇𝖼𝗍𝗂𝗈𝗇𝗌, 𝖴𝗌𝖾 𝖳𝗁𝖾 𝖡𝗎𝗍𝗍𝗈𝗇𝗌 𝖡𝖾𝗅𝗈𝗐.
@@ -44,7 +44,7 @@ class Txt(object):
     """
     
     ABOUT_TXT = f"""<b>╭───────────⍟
-├🤖 𝖬𝗒 𝗇𝖺𝗆𝖾: <a href=http://t.me/FuZionX_SD_Bot>𝖥𝗎𝖹𝗂𝗈𝗇𝖷 𝖲𝖣</a>
+├🤖 𝖬𝗒 𝗇𝖺𝗆𝖾: <a href=http://t.me/FZXAutoRenameBot>𝖥𝗎𝖹𝗂𝗈𝗇𝖷 𝖲𝖣</a>
 ├📕 𝖫𝗂𝖻𝗋𝖺𝗋𝗒: <a href=https://github.com/pyrogram>𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆</a>
 ├✏️ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾: <a href=https://www.python.org>𝖯𝗒𝗍𝗁𝗈𝗇3</a>
 ├💾 𝖣𝖺𝗍𝖺𝖡𝖺𝗌𝖾: <a href=https://cloud.mongodb.com>𝖬𝗈𝗇𝗀𝗈𝖣𝖡</a>
