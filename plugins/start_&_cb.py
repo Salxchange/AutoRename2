@@ -42,7 +42,7 @@ async def cb_handler(client, query: CallbackQuery):
             ])
         )
     elif data == "about":
-        media = InputMediaVideo(Config.START_PIC)
+        media = InputMediaPhoto(Config.START_PIC)
 
         await query.message.edit_media(media=media)
         await query.message.edit_caption(
