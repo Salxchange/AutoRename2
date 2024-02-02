@@ -6,17 +6,17 @@ class Config(object):
     # pyro client config
     API_ID    = os.environ.get("API_ID", "22418774")
     API_HASH  = os.environ.get("API_HASH", "d8c8dab274f9a811814a6a96d044028e")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6715664137:AAGBBV2i_tpF3UiixI8hHDY4ArEUywfesHI") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
 
     # database config
-    DB_NAME = os.environ.get("DB_NAME","obi")     
+    DB_NAME = os.environ.get("DB_NAME","Roku")     
     DB_URL  = os.environ.get("DB_URL","mongodb+srv://mehtadmphta33:Mehtab1234@cluster0.bfsb3oq.mongodb.net/?retryWrites=true&w=majority")
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/a39c43ccf6c454d30eaec.mp4")
+    START_PIC   = os.environ.get("START_PIC", "https://telegra.ph/file/3408344d69952d7a739e9.jpg")
     ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1966867320').split()]
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "UchihaPoliceUpdates") 
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "Rokubotz") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002020039437"))
 
     # wes response configuration     
@@ -33,21 +33,24 @@ class Txt(object):
     """
         
     START_TXT = """𝖧𝖾𝗅𝗅𝗈 {}
-I'ᴍ **Oʙɪᴛᴏ Uᴄʜɪʜᴀ**, ᴀɴ ᴀᴜᴛᴏʀᴇɴᴀᴍᴇ ʙᴏᴛ ᴛʜᴀᴛ ʀᴇɴᴀᴍᴇs ᴀɴɪᴍᴇ ғɪʟᴇs ᴛᴏ ᴛʜᴇ ғᴏʀᴍᴀᴛ ʏᴏᴜ sᴇᴛ."
-Tᴏ sᴇᴇ ᴍʏ ғᴜɴᴄᴛɪᴏɴs, ᴜsᴇ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ."""
+𝖧𝗂 {username} 𝗂 𝖺𝗆 <a href=http://t.me/FuZionX_SD>𝖥𝗎𝖹𝗂𝗈𝗇𝖷 𝖲𝖣</a>, 𝖠𝗇 𝖠𝗎𝗍𝗈 𝖱𝖾𝗇𝖺𝗆𝖾 𝖡𝗈𝗍,
+𝖳𝗁𝖺𝗍 𝖱𝖾𝗇𝖺𝗆𝖾𝗌 𝖠𝗇𝗂𝗆𝖾 𝖥𝗂𝗅𝖾𝗌 𝖳𝗈 𝖳𝗁𝖾 𝖥𝗈𝗋𝗆𝖺𝗍 𝖳𝗈 𝖲𝖾𝗍 . "
+
+𝖳𝗈 𝖲𝖾𝖾 𝖬𝗒 𝖥𝗎𝗇𝖼𝗍𝗂𝗈𝗇𝗌, 𝖴𝗌𝖾 𝖳𝗁𝖾 𝖡𝗎𝗍𝗍𝗈𝗇𝗌 𝖡𝖾𝗅𝗈𝗐"
+"""
     
     FILE_NAME_TXT = """
-    <u><b>SETUP AUTO RENAME FORMAT</b></u>\n\nUse These Keywords To Setup Custom File Name\n\n➝ episode :- to replace episode number\n➝ quality :- to replace video resolution\n\n‣ <b>Example :</b> /autorename [AL] High Card S1 - Eepisode [quality] Sub @Anime_Locus.mkv\n\n‣ <b>Your Current Rename Format :</b> {format_template}
+    <u><b>SETUP AUTO RENAME FORMAT</b></u>\n\nUse These Keywords To Setup Custom File Name\n\n➝ episode :- to replace episode number\n➝ quality :- to replace video resolution\n\n‣ <b>Example :</b> /autorename [FZ] High Card S1 - Eepisode [quality] Sub @FZAnime.mkv\n\n‣ <b>Your Current Rename Format :</b> {format_template}
     """
     
     ABOUT_TXT = f"""<b>╭───────────⍟
-├🤖 My name: <a href=http://t.me/UchihaObito_xBot>Uᴄʜɪʜᴀ Oʙɪᴛᴏ</a>
-├📕 Library: <a href=https://github.com/pyrogram>Pyʀᴏɢʀᴀᴍ</a>
-├✏️ Language: <a href=https://www.python.org>Pyᴛʜᴏɴ3</a>
-├💾 Data Base: <a href=https://cloud.mongodb.com>Mᴏɴɢᴏ DB</a>
-├📊 Build Version: `OBI V1.7.0`
-├🔗 GitHub: <a href=https://github.com/illuminati-Dev>GitHub</a>
-├📧 Contact: <a href=https://telegram.me/The_NanamiiKento>N A N A M I</a>
+├🤖 𝖬𝗒 𝗇𝖺𝗆𝖾: <a href=http://t.me/FuZionX_SD>𝖥𝗎𝖹𝗂𝗈𝗇𝖷 𝖲𝖣</a>
+├📕 𝖫𝗂𝖻𝗋𝖺𝗋𝗒: <a href=https://github.com/pyrogram>𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆</a>
+├✏️ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾: <a href=https://www.python.org>𝖯𝗒𝗍𝗁𝗈𝗇3</a>
+├💾 𝖣𝖺𝗍𝖺𝖡𝖺𝗌𝖾: <a href=https://cloud.mongodb.com>𝖬𝗈𝗇𝗀𝗈𝖣𝖡</a>
+├📊 𝖡𝗎𝗂𝗅𝖽 𝖵𝖾𝗋𝗌𝗂𝗈𝗇: `OBI V1.7.0`
+├🔗 𝖦𝗂𝗍𝖧𝗎𝖻: <a href=https://github.com/SilentDemonSD>𝖲𝗂𝗅𝖾𝗇𝗍𝖣𝖾𝗆𝗈𝗇𝖲𝖣</a>
+├📧 𝖢𝗈𝗇𝗍𝖺𝖼𝗍: <a href=https://telegram.me/Mystery SD>𝖲𝗂𝗅𝖾𝗇𝗍𝖣𝖾𝗆𝗈𝗇</a>
 ╰───────────────⍟ 
 """
 
@@ -56,10 +59,9 @@ Tᴏ sᴇᴇ ᴍʏ ғᴜɴᴄᴛɪᴏɴs, ᴜsᴇ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙ�
 • /del_thumb to delete your old thumbnail.
 • /view_thumb to view your current thumbnail."""
 
-    PREMIUM_TXT = """Hm Soon
-    for now free use kr lo"""
+    PREMIUM_TXT = """𝖢𝗈𝗆𝗂𝗇𝗀 𝖲𝗈𝗈𝗇"""
 
-#⚠️ Dᴏɴ'ᴛ Rᴇᴍᴏᴠᴇ Oᴜʀ Cʀᴇᴅɪᴛꜱ @ᴩyʀᴏ_ʙᴏᴛᴢ🙏🥲
+#⚠️ Dᴏɴ'ᴛ Rᴇᴍᴏᴠᴇ Oᴜʀ Cʀᴇᴅɪᴛꜱ @rokubotz🙏🥲
     COMMANDS_TXT = """🌌 How To Set Thumbnail
   
 • /start the bot and send any photo to automatically set the thumbnail.
