@@ -14,10 +14,10 @@ async def start(client, message):
     await db.add_user(client, message)
     
     button = InlineKeyboardMarkup([
-        [InlineKeyboardButton("Commands", callback_data='commands')],
-        [InlineKeyboardButton('Updates', url='https://t.me/UchihaPoliceUpdates'),
-         InlineKeyboardButton('Support', url='https://t.me/UchihaPolice_Support')],
-        [InlineKeyboardButton('Help', callback_data='about')]
+        [InlineKeyboardButton("𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌", callback_data='commands')],
+        [InlineKeyboardButton('𝖴𝗉𝖽𝖺𝗍𝖾𝗌', url='https://t.me/Rokubotz'),
+         InlineKeyboardButton('𝖲𝗎𝗉𝗉𝗈𝗋𝗍', url='https://t.me/Team_Roku')],
+        [InlineKeyboardButton('𝖧𝖾𝗅𝗉', callback_data='about')]
     ])
 
     if Config.START_PIC:
@@ -35,10 +35,10 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.START_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("Commands", callback_data='commands')],
-                [InlineKeyboardButton('Updates', url='https://t.me/UchihaPoliceUpdates'),
-                 InlineKeyboardButton('Support', url='https://t.me/UchihaPolice_Support')],
-                [InlineKeyboardButton('Help', callback_data='about')]
+                [InlineKeyboardButton("𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌", callback_data='commands')],
+                [InlineKeyboardButton('𝖴𝗉𝖽𝖺𝗍𝖾𝗌', url='https://t.me/UchihaPoliceUpdates'),
+                 InlineKeyboardButton('𝖲𝗎𝗉𝗉𝗈𝗋𝗍', url='https://t.me/UchihaPolice_Support')],
+                [InlineKeyboardButton('𝖧𝖾𝗅𝗉', callback_data='about')]
             ])
         )
     elif data == "about":
@@ -48,10 +48,10 @@ async def cb_handler(client, query: CallbackQuery):
         await query.message.edit_caption(
             caption=Txt.ABOUT_TXT.format(client.mention),
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("Set Username Format", callback_data='file_names')],
-                [InlineKeyboardButton('Thumbnail', callback_data='thumbnail'),
-                 InlineKeyboardButton('Sequence', callback_data='sequence')],
-                [InlineKeyboardButton('Home', callback_data='start')]
+                [InlineKeyboardButton("𝖲𝖾𝗍 𝖴𝗌𝖾𝗋𝗇𝖺𝗆𝖾 𝖥𝗈𝗋𝗆𝖺𝗍", callback_data='file_names')],
+                [InlineKeyboardButton('𝖳𝗁𝗎𝗆𝖻𝗇𝖺𝗂𝗅', callback_data='thumbnail'),
+                 InlineKeyboardButton('𝖲𝖾𝗊𝗎𝖾𝗇𝖼𝖾', callback_data='sequence')],
+                [InlineKeyboardButton('𝖧𝗈𝗆𝖾', callback_data='start')]
             ])
         )
     elif data == "sequence":
@@ -59,9 +59,9 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.SEQUENCE_TXT,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("Rɪɴ Nᴏʜᴀʀᴀ", url='https://t.me/RinNohara_xBot')],
-                [InlineKeyboardButton("Close", callback_data="close"),
-                 InlineKeyboardButton("Back", callback_data="start")]
+                [InlineKeyboardButton("", url='https://t.me/RinNohara_xBot')],
+                [InlineKeyboardButton("𝖢𝗅𝗈𝗌𝖾 ✘", callback_data="close"),
+                 InlineKeyboardButton("« Bᴀᴄᴋ", callback_data="start")]
             ])
         )
     elif data == "commands":
@@ -69,8 +69,8 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.COMMANDS_TXT,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("Close", callback_data="close"),
-                 InlineKeyboardButton("Back", callback_data="start")]
+                [InlineKeyboardButton("𝖢𝗅𝗈𝗌𝖾 ✘", callback_data="close"),
+                 InlineKeyboardButton("« Bᴀᴄᴋ", callback_data="start")]
             ])
         )
     elif data == "file_names":
@@ -79,8 +79,8 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.FILE_NAME_TXT.format(format_template=format_template),
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("Close", callback_data="close"),
-                 InlineKeyboardButton("Back", callback_data="about")]
+                [InlineKeyboardButton("𝖢𝗅𝗈𝗌𝖾 ✘", callback_data="close"),
+                 InlineKeyboardButton("« Bᴀᴄᴋ", callback_data="about")]
             ])
         )
     elif data == "thumbnail":
@@ -90,14 +90,14 @@ async def cb_handler(client, query: CallbackQuery):
             await query.message.edit_media(media=InputMediaPhoto(user_thumbnail))
         else:
             await query.message.edit_text(text=Txt.THUMB_TXT, reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("Close", callback_data="close"),
-                 InlineKeyboardButton("Back", callback_data="about")]
+                [InlineKeyboardButton("𝖢𝗅𝗈𝗌𝖾 ✘", callback_data="close"),
+                 InlineKeyboardButton("« Bᴀᴄᴋ", callback_data="about")]
             ]))
         await query.message.edit_caption(
             caption=Txt.THUMB_TXT,
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("Close", callback_data="close"),
-                 InlineKeyboardButton("Back", callback_data="about")]
+                [InlineKeyboardButton("𝖢𝗅𝗈𝗌𝖾 ✘", callback_data="close"),
+                 InlineKeyboardButton("« Bᴀᴄᴋ", callback_data="about")]
             ])
         )
     elif data == "close":
