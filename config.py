@@ -80,11 +80,10 @@ Example: /set_caption 📕 File Name: {filename}
 • Send any file and type the new file name and select the format [document, video, audio].    """
 
     PROGRESS_BAR = """<b>\n
-╭━━━━❰ᴘʀᴏɢʀᴇss ʙᴀʀ❱━➣
-┣⪼ 🗃️ Sɪᴢᴇ: {1} | {2}
-┣⪼ ⏳️ Dᴏɴᴇ : {0}%
-┣⪼ 🚀 Sᴩᴇᴇᴅ: {3}/s
-┣⪼ ⏰️ Eᴛᴀ: {4}
+╭━━━━『𝖯𝗋𝗈𝗀𝗋𝖾𝗌𝗌 𝖡𝖺𝗋』━➣
+┣⪼ 🗃️ 𝖲𝗂𝗓𝖾: {1} | {2}
+┣⪼ ⏳️ 𝖣𝗈𝗇𝖾 : {0}%
+┣⪼ 🚀 𝖲𝗉𝖾𝖾𝖽: {3}/s
+┣⪼ ⏰️ 𝖤𝖳𝖠: {4}
+┣⪼ <i>𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖻𝗒 <a href=http://t.me/Rokubotz>𝖱𝗈𝗄𝗎𝖻𝗈𝗍𝗓</a></i>
 ╰━━━━━━━━━━━━━━━➣ </b>"""
-
-
