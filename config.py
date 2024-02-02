@@ -33,6 +33,7 @@ class Txt(object):
     """
         
     START_TXT = """𝖧𝖾𝗅𝗅𝗈 👋 {}
+    
 𝗂 𝖺𝗆 <a href=http://t.me/FZXAutoRenameBot>𝖥𝗎𝖹𝗂𝗈𝗇𝖷 𝖲𝖣</a> 𝖠𝗇 𝖠𝗎𝗍𝗈 𝖱𝖾𝗇𝖺𝗆𝖾 𝖡𝗈𝗍
 𝖳𝗁𝖺𝗍 𝖱𝖾𝗇𝖺𝗆𝖾𝗌 𝖥𝗂𝗅𝖾𝗌 𝖳𝗈 𝖳𝗁𝖾 𝖥𝗈𝗋𝗆𝖺𝗍 𝖲𝖾𝗍.
 
